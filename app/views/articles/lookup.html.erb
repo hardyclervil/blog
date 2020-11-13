@@ -1,0 +1,12 @@
+<p>Lookup</p>
+
+<table>
+  <tr>
+    <th>Email</th>
+  </tr>
+  <% @csv_array.each do |email| %>
+    <tr>
+      <td><%= email %></td>
+    </tr>
+  <% end %>
+</table>
